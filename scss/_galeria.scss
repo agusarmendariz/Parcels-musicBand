@@ -1,0 +1,23 @@
+.galeria h2 {
+    padding: 30px 120px;
+    font-family: "font1";
+    color: $color-h2;
+}
+#galery {
+    img {
+    padding-bottom: 20px;
+    width: 100%;
+}
+}
+#galeriaFotos {
+    img {
+    width: 100%;
+    height: 356px;
+    object-fit:cover;
+    margin: 20px  0px;
+    border-radius: 20px;
+    & img:hover {
+        opacity: 0.5;
+    }                 
+}
+}

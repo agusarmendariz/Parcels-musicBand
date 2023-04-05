@@ -1,0 +1,24 @@
+.headerDiscografia h2 {
+    margin: 30px 150px;
+    font-family: "font1";
+    color: $color-h2;
+}
+
+#discografia{
+    img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    }
+    p{
+    text-align: center;
+     padding-top: 10px;   
+    }
+}
+.videos{
+    iframe{
+        width: 800px;
+        height: 480px;
+        padding: 30px;
+    }
+}
